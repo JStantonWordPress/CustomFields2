@@ -1,0 +1,10 @@
+{{#if isString}}
+<label>Store or Website</label>
+  {{input
+    type="text"
+    value=(readonly fieldValue3)
+    class="topic-custom-field-input medium"
+    input=(action "onChangeField" value="target.value")
+    placeholder="EX: Guitar Center"
+  }}
+{{/if}}

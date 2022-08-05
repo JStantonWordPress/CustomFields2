@@ -1,0 +1,13 @@
+{{#if isString}}
+<label>Price</label>
+<div class="input-wrapper">
+<div class="input-addon">$</div>
+{{input
+    type="text"
+    value=(readonly fieldValue)
+    class="topic-custom-field-input small"
+    input=(action "onChangeField" value="target.value")
+    placeholder="EX: 199.99"
+  }}
+  </div>
+{{/if}}

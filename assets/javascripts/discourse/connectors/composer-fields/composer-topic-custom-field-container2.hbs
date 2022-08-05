@@ -1,0 +1,10 @@
+{{#if isString}}
+<label>Deal URL</label>
+  {{input
+    type="text"
+    value=(readonly fieldValue2)
+    class="topic-custom-field-input large"
+    input=(action "onChangeField" value="target.value")
+    placeholder="http://"
+  }}
+{{/if}}

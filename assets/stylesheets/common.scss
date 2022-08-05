@@ -1,0 +1,23 @@
+.topic-custom-field-input {
+  max-width: 100%;
+
+  &.small {
+    width: 150px;
+  }
+
+  &.large {
+    width: 475px;
+  }
+}
+
+.composer-topic-custom-field-container{width: 50%;
+  display: inline-block;
+  float: left;}
+.composer-topic-custom-field-container2{
+  width: 50%;
+  display: inline-block;
+}
+.topic-custom-field-textarea {
+  max-width: 100%;
+  width: 465px;
+}

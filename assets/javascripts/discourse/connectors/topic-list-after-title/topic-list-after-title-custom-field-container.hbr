@@ -1,0 +1,18 @@
+<span> | </span>
+
+<span class='{{context.customFieldName2}}' data-topic-id='{{context.topic.id}}'>
+URL: <span>{{context.customFieldValue2}}</span>
+</span>
+
+<span> | </span>
+
+<span class='{{context.customFieldName}}' data-topic-id='{{context.topic.id}}'>
+Sales Price: $<span>{{context.customFieldValue}}</span>
+</span>
+
+<span> | </span>
+
+<span class='{{context.customFieldName3}}' data-topic-id='{{context.topic.id}}'>
+Store: <span>{{context.customFieldValue3}}</span>
+</span>
+
